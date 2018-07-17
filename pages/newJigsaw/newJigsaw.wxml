@@ -1,0 +1,93 @@
+<!--pages/newJigsaw/newJigsaw.wxml-->
+<view class="container">
+    <view class="imgView" style="height:{{iwidth+2}}px">
+        <image id="oriImg" src="{{imgUrl}}" mode="aspectFit" style="left:{{left}}px;width:{{iwidth}}px;height:{{iwidth}}px"></image>
+        <view id="gridding" style="left:{{left-1}}px;width:{{iwidth+2}}px;height:{{iwidth+2}}px;">
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{1<=total}}"></view>
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{2<=total}}"></view>
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{3<=total}}"></view>
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{4<=total}}"></view>
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{5<=total}}"></view>
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{6<=total}}"></view>
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{7<=total}}"></view>
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{8<=total}}"></view>
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{9<=total}}"></view>
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{10<=total}}"></view>
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{11<=total}}"></view>
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{12<=total}}"></view>
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{13<=total}}"></view>
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{14<=total}}"></view>
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{15<=total}}"></view>
+            <view class="griddingView" style="width:{{mwidth}}px;height:{{mheight}}px;" wx:if="{{16<=total}}"></view>
+        </view>
+    </view>
+
+    <view class="setView">
+        <view class="lineSet">
+            <view class="weui-cell weui-cell_input"> 
+                <view class="weui-cell__hd">
+                    <view class="weui-label">列数：</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" type="number" bindblur='colNumChange' placeholder="请输入列数"/>
+                </view>
+            </view> 
+        </view>
+        <view class="columnSet">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">行数：</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input class="weui-input" type="number" bindblur='rowNumChange' placeholder="请输入行数"/>
+                </view>
+            </view>
+        </view>
+        <!-- <view class="overtimeSet">
+            <view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">是否设置超时：</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <switch bindchange="overtimeChange"/>
+                </view>
+            </view>
+        </view> -->
+        
+        <view class="msg">
+            <!-- <view class="weui-cell weui-cell_input" wx:if="{{overtime}}">
+                <view class="weui-cell__bd">
+                    <input class="weui-input" bindblur='intimeRemark' placeholder="输入未超时留言" />
+                </view>
+            </view>
+            <view class="weui-cell weui-cell_input" wx:if="{{overtime}}">
+                <view class="weui-cell__bd">
+                    <input class="weui-input" bindblur='overtimeRemark' placeholder="输入超时留言" />
+                </view>
+            </view>   -->
+            <view class="weui-cells weui-cells_after-title" wx:if="{{!overtime}}"> 
+                 <view class="weui-cell">
+                    <view class="weui-cell__bd">
+                        <textarea class="weui-textarea" maxlength="-1" auto-height bindinput='remarkChange' placeholder="输入留言" style="min-height: {{remarkHeight}}px;" />
+                        <!-- <view class="weui-textarea-counter">0/200</view> -->
+                    </view>
+                </view> 
+            </view> 
+        </view>
+    </view>
+    <view class="handleView">
+        <button size="mini" type="primary" bindtap='goIndex' wx:if="{{isShare}}">返回首页</button>
+        <button size="mini" type='default' bindtap='cancel' wx:if="{{!isShare}}">取 消</button>
+        <button size="mini" type='primary' open-type='share'>发给好友</button>
+        <button size="mini" type='primary' bindtap='driftBottle'>扔到海里</button>
+    </view>
+
+    <!-- <view class="canvasView">
+        <canvas style="width: 300px; height: 300px;" canvas-id="firstCanvas"></canvas>
+    </view>
+    <button type='primary' bindtap='getImgData'>click me</button>
+    <view class="canvasView1">
+        <canvas style="width: 300px; height: 300px;" canvas-id="firstCanvas1"></canvas>
+    </view> -->
+    
+</view>

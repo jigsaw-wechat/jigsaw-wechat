@@ -1,0 +1,21 @@
+<!--pages/editimg/editimg.wxml-->
+<view class="container">
+    <template name="we-cropper">
+        <canvas
+                class="cropper  {{cutImage}}" 
+                disable-scroll="true"
+                bindtouchstart="touchStart"
+                bindtouchmove="touchMove"
+                bindtouchend="touchEnd"
+                style="width:{{width}}px;height:{{height}}px;"
+                canvas-id="{{id}}">
+        </canvas>
+    </template>
+    <view class="cropper-wrapper {{cutImage}}">
+        <template is="we-cropper"  data="{{...cropperOpt}}"/>
+        <view class="cropper-buttons ">
+            <button type="primary" size='mini' class="upload boxshaw cropperUpload" bindtap="chooseimage">重新选择</button>
+            <button type="primary" size='mini' class="boxshaw getCropperImage" bindtap="getCropperImage">确 定</button>
+        </view>
+    </view>
+</view>

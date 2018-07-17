@@ -1,0 +1,71 @@
+/* pages/play/play.wxss */
+.container{
+     height: 100vh;
+     justify-content: space-between;
+}
+
+.imgView{
+     width: 100%;  
+     position: relative;
+     height: 300px;
+}
+.imgView>image{
+    position: absolute; 
+    top: 1px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #aaa; 
+    box-shadow: 10px 10px 5px #888;
+    /* padding: 1px; */
+}
+.imgView #gridding{
+    position: absolute;
+    top: 0px;
+    border: 1px solid #aaa;
+    width: 302px;
+    height: 302px;
+    box-sizing: border-box;
+}
+.griddingView{
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+
+    overflow: hidden;
+
+    position: absolute;
+}
+.hover{
+    border-color: red;
+}
+.griddingView image{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+.success{
+    margin:130px auto 0;
+    width: 90vw;
+}
+.success .creater{
+    display: flex;
+    justify-content: flex-end;
+}
+.userinfo-nickname {
+  color: #aaa;
+  line-height: 60px;
+  height: 60px;
+}
+.userinfo-avatar {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.handleView{
+    width: 100vw;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}

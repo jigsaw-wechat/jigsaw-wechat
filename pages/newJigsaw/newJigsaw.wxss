@@ -1,0 +1,66 @@
+/* pages/newJigsaw/newJigsaw.wxss */
+
+.imgView{
+     width: 100%;  
+     position: relative;
+     /* padding: 10px 0; */
+}
+.imgView image{
+    position: absolute;
+    top: 1px;
+    /* width: 300px; */
+    /* height: 300px; */
+}
+.imgView #gridding{
+    position: absolute;
+    top: 0px;
+    border: 1px solid #aaa;
+    /* width: 302px; */
+    /* height: 302px; */
+    box-sizing: border-box;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.griddingView{
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+
+.setView{
+    width: 90%;
+    margin-top: 10px; 
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.setView .weui-label{
+    width: 125px;
+}
+
+.handleView{
+    width: 100vw;
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+ .canvasView{
+    width: 100vw; 
+    display: flex; 
+    padding: 10px 0; 
+    justify-content: center; 
+    /* display: none; */
+}
+.canvasView canvas{
+     border: 1px solid #aaa; 
+    /* flex:1; */
+}
+.canvasView1{
+     width: 100vw;
+    display: flex; 
+    padding: 10px 0; 
+    justify-content: center;   
+}
+.canvasView1 canvas{
+    border: 1px solid #aaa;
+} 

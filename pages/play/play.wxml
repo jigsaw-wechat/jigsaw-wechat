@@ -1,0 +1,76 @@
+<!--pages/play/play.wxml-->
+<view class="container">
+    <view class="imgView">
+        <image src="{{src}}" animation="{{animationData}}" bindtap='preView' mode="aspectFit" style="left:{{left-1}}px;" wx:if="{{success}}"></image> 
+        <view id="gridding" style="left:{{left-1}}px;"  wx:if="{{!success}}">
+            <view class="griddingView {{back[0].hover}}" bindtap='move' animation="back[0].animation" data-id="0" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[0].mtop}}px;left:{{back[0].mleft}}px;" wx:if="{{1<=total}}">
+                <image src='{{src}}' style="top:{{back[0].top}}px;left:{{back[0].left}}px"></image>
+            </view>
+            <view class="griddingView {{back[1].hover}}" bindtap='move' animation="back[1].animation" data-id="1" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[1].mtop}}px;left:{{back[1].mleft}}px;" wx:if="{{2<=total}}">
+                <image src='{{src}}' style="top:{{back[1].top}}px;left:{{back[1].left}}px"></image>
+            </view>
+            <view class="griddingView {{back[2].hover}}" bindtap='move' animation="back[2].animation" data-id="2" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[2].mtop}}px;left:{{back[2].mleft}}px;" wx:if="{{3<=total}}">
+                <image src='{{src}}' style="top:{{back[2].top}}px;left:{{back[2].left}}px"></image>
+            </view>
+            <view class="griddingView {{back[3].hover}}" bindtap='move' animation="back[3].animation" data-id="3" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[3].mtop}}px;left:{{back[3].mleft}}px;" wx:if="{{4<=total}}">
+                <image src='{{src}}' style="top:{{back[3].top}}px;left:{{back[3].left}}px"></image>
+            </view>
+            <view class="griddingView {{back[4].hover}}" bindtap='move' animation="back[4].animation" data-id="4" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[4].mtop}}px;left:{{back[4].mleft}}px;" wx:if="{{5<=total}}">
+                <image src='{{src}}' style="top:{{back[4].top}}px;left:{{back[4].left}}px"></image>
+            </view>
+            <view class="griddingView {{back[5].hover}}" bindtap='move' animation="back[5].animation" data-id="5" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[5].mtop}}px;left:{{back[5].mleft}}px;" wx:if="{{6<=total}}">
+                <image src='{{src}}' style="top:{{back[5].top}}px;left:{{back[5].left}}px"></image>
+            </view>
+            <view class="griddingView {{back[6].hover}}" bindtap='move' animation="back[6].animation" data-id="6" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[6].mtop}}px;left:{{back[6].mleft}}px;" wx:if="{{7<=total}}">
+                <image src='{{src}}' style="top:{{back[6].top}}px;left:{{back[6].left}}px"></image>
+            </view>
+            <view class="griddingView {{back[7].hover}}" bindtap='move' animation="back[7].animation" data-id="7" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[7].mtop}}px;left:{{back[7].mleft}}px;" wx:if="{{8<=total}}">
+                <image src='{{src}}' style="top:{{back[7].top}}px;left:{{back[7].left}}px"></image>
+            </view>
+            <view class="griddingView {{back[8].hover}}" bindtap='move' animation="back[8].animation" data-id="8" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[8].mtop}}px;left:{{back[8].mleft}}px;" wx:if="{{9<=total}}">
+                <image src='{{src}}' style="top:{{back[8].top}}px;left:{{back[8].left}}px"></image>
+            </view>
+            <view class="griddingView {{back[9].hover}}" bindtap='move' animation="back[9].animation" data-id="9" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[9].mtop}}px;left:{{back[9].mleft}}px;" wx:if="{{10<=total}}">
+                <image src='{{src}}' style="top:{{back[9].top}}px;left:{{back[9].left}}px"></image>
+            </view>
+            <view class="griddingView {{back[10].hover}}" bindtap='move' animation="back[10].animation" data-id="10" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[10].mtop}}px;left:{{back[10].mleft}}px;" wx:if="{{11<=total}}">
+                <image src='{{src}}' style="top:{{back[10].top}}px;left:{{back[10].left}}px"></image>
+            </view>
+            <view class="griddingView {{back[11].hover}}" bindtap='move' animation="back[11].animation" data-id="11" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[11].mtop}}px;left:{{back[11].mleft}}px;" wx:if="{{12<=total}}">
+                <image src='{{src}}' style="top:{{back[11].top}}px;left:{{back[11].left}}px"></image>
+            </view>
+            <view class="griddingView {{back[12].hover}}" bindtap='move' animation="back[12].animation" data-id="12" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[12].mtop}}px;left:{{back[12].mleft}}px;" wx:if="{{13<=total}}">
+                <image src='{{src}}' style="top:{{back[12].top}}px;left:{{back[12].left}}px"></image>
+            </view>
+            <view class="griddingView {{back[13].hover}}" bindtap='move' animation="back[13].animation" data-id="13" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[13].mtop}}px;left:{{back[13].mleft}}px;" wx:if="{{14<=total}}">
+                <image src='{{src}}' style="top:{{back[13].top}}px;left:{{back[13].left}}px"></image>
+            </view>
+            <view class="griddingView {{back[14].hover}}" bindtap='move' animation="back[14].animation" data-id="14" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[14].mtop}}px;left:{{back[14].mleft}}px;" wx:if="{{15<=total}}">
+                <image src='{{src}}' style="top:{{back[14].top}}px;left:{{back[14].left}}px"></image>
+            </view>
+            <view class="griddingView {{back[15].hover}}" bindtap='move' animation="back[15].animation" data-id="15" style="width:{{mwidth}}px;height:{{mheight}}px;top:{{back[15].mtop}}px;left:{{back[15].mleft}}px;" wx:if="{{16<=total}}">
+                <image src='{{src}}' style="top:{{back[15].top}}px;left:{{back[15].left}}px"></image>
+            </view>
+        </view>
+        <view class="success" animation="{{animationData1}}" style="opacity:0;"  wx:if="{{success}}">
+            <view class="msg">
+                <view class="weui-cells__title">留言</view>
+                <view class="weui-cells weui-cells_after-title">
+                    <view class="weui-cell">
+                        <view class="weui-cell__bd">
+                             <textarea class="weui-textarea" disabled maxlength="-1" auto-height value="{{remark}}" style="min-height: 3.3em" /> 
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="creater">
+                <text class="userinfo-nickname">—— {{nickName}}</text>
+                <image class="userinfo-avatar" src="{{avatarUrl}}" background-size="cover"></image>
+            </view>
+        </view>
+    </view>
+    <view class="handleView">
+        <button type="default" size="mini" bindtap='goBack' wx:if="{{!success}}">取消</button>
+        <button type="primary" size="mini" bindtap='goIndex' wx:if="{{success}}">返回首页</button>
+    </view> 
+</view>

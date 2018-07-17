@@ -1,0 +1,32 @@
+{
+  "pages":[
+      
+    "pages/index/index",
+    "pages/editimg/editimg",
+    "pages/newJigsaw/newJigsaw",
+    "pages/play/play",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "拼图",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#00dd00",
+    "backgroundColor": "#eee",
+    "list": [
+        {
+            "pagePath": "pages/index/index",
+            "text": "首页"
+        },
+        {
+            "pagePath": "pages/user/user",
+            "text": "我的"
+        }
+    ]
+},
+  "debug":true
+}

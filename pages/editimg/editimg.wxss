@@ -1,0 +1,6 @@
+/* pages/editimg/editimg.wxss */
+.cropper-buttons{
+    display: flex;
+    padding: 10px;
+    justify-content:center;
+}
