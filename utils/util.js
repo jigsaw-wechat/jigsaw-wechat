@@ -17,7 +17,8 @@ const formatNumber = n => {
 const userInfo = {};
 
 const prd = 0; // 是否生产环境。
-const MAIN_URL = prd ? 'https://' :'http://192.168.50.17:3086';
+const MAIN_URL = prd ? 'https://' :'http://10.59.54.57:3086';
+
 const salvageUrl = MAIN_URL + '/drift/salvage';
 const uploadImgUrl = MAIN_URL + '/img/upload';
 const delImgUrl = MAIN_URL + '/img/delete';
