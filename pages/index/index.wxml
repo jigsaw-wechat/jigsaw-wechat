@@ -11,21 +11,4 @@
         <button size="mini" type="primary" bindtap='salvage'>捞取拼图</button>
         <button size="mini" type='primary' bindtap='create'>创建拼图</button>
     </view>
-    <!-- <view class="weui-uploader">
-        <view class="weui-uploader__hd">
-            <view class="weui-uploader__title">选择图片</view>
-        </view>
-        <view class="weui-uploader__bd">
-            <view class="weui-uploader__files" id="uploaderFiles">
-                <block wx:for="{{files}}" wx:key="*this">
-                    <view class="weui-uploader__file" bindtap="toSetJigsaw" id="{{item.src}}">
-                        <image class="weui-uploader__img" src="{{item.src}}" mode="aspectFill" />
-                    </view>
-                </block>
-            </view>
-            <view class="weui-uploader__input-box" wx:if="{{isUploadShow}}">
-                <view class="weui-uploader__input" bindtap="chooseImage"></view>
-            </view>
-        </view>
-    </view> -->
 </view>

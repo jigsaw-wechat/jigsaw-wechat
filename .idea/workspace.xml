@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94684cfe-c859-48f6-acb9-9d45fd50a273" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="util.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utils/util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newJigsaw.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/newJigsaw/newJigsaw.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-127">
+              <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+              <folding>
+                <marker date="1531832924601" expanded="true" signature="214:8118" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="221:247" ph="/** 页面的初始数据 ...*/" />
+                <marker date="1531832924601" expanded="true" signature="258:662" ph="{&quot;imgUrl&quot;: ''...}" />
+                <marker date="1531832924601" expanded="true" signature="669:702" ph="/** 生命周期函数--监听页面加载 ...*/" />
+                <marker date="1531832924601" expanded="true" signature="728:1864" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="973:1097" ph="{&quot;iwidth&quot;: iwidth...}" />
+                <marker date="1531832924601" expanded="true" signature="1109:1258" ph="//..." />
+                <marker date="1531832924601" expanded="true" signature="1354:1857" ph="{&quot;name&quot;: 'jigsaw'...}" />
+                <marker date="1531832924601" expanded="true" signature="1469:1846" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="1578:1772" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="1613:1725" ph="{&quot;title&quot;: '提示'...}" />
+                <marker date="1531832924601" expanded="true" signature="1870:2430" ph="//..." />
+                <marker date="1531832924601" expanded="true" signature="2436:3177" ph="//..." />
+                <marker date="1531832924601" expanded="true" signature="3225:3621" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="3523:3614" ph="{&quot;total&quot;: total...}" />
+                <marker date="1531832924601" expanded="true" signature="3667:4053" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="3772:3816" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="3832:3896" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="3915:3959" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="3965:4007" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="4099:4483" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="4211:4255" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="4274:4338" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="4353:4397" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="4403:4445" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="4528:4639" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="4585:4632" ph="{&quot;overtime&quot;: e.detail.value...}" />
+                <marker date="1531832924601" expanded="true" signature="4683:4734" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="4779:4832" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="4878:4971" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="5012:5092" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="5035:5085" ph="{&quot;url&quot;: '/pages/index/index'...}" />
+                <marker date="1531832924601" expanded="true" signature="5126:6124" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="5212:6033" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="5337:6022" ph="{&quot;url&quot;: url...}" />
+                <marker date="1531832924601" expanded="true" signature="5503:6007" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="5646:5775" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="5688:5752" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="5781:5970" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="5820:5947" ph="{&quot;title&quot;: '提示'...}" />
+                <marker date="1531832924601" expanded="true" signature="6037:6118" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="6067:6107" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="6169:7452" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="6467:6502" ph="//..." />
+                <marker date="1531832924601" expanded="true" signature="6595:7445" ph="{&quot;url&quot;: url...}" />
+                <marker date="1531832924601" expanded="true" signature="6733:7223" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="6881:6997" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="6916:6977" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="7001:7209" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="7036:7190" ph="{&quot;title&quot;: '提示'...}" />
+                <marker date="1531832924601" expanded="true" signature="7255:7435" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="7286:7420" ph="{&quot;title&quot;: '提示'...}" />
+                <marker date="1531832924601" expanded="true" signature="7459:7486" ph="/** 用户点击发给好友 ...*/" />
+                <marker date="1531832924601" expanded="true" signature="7523:8116" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="7909:7945" ph="{...}" />
+                <marker date="1531832924601" expanded="true" signature="7972:8101" ph="{&quot;title&quot;: '拼一拼'...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2" />
+    <option name="y" value="23" />
+    <option name="width" value="1418" />
+    <option name="height" value="810" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jigsaw-wechat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jigsaw-wechat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jigsaw-wechat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jigsaw-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jigsaw-wechat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jigsaw-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="newJigsaw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jigsaw-wechat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jigsaw-wechat" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94684cfe-c859-48f6-acb9-9d45fd50a273" name="Default" comment="" />
+      <created>1531833920252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531833920252</updated>
+      <workItem from="1531833921592" duration="1303000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1303000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2" y="23" width="1418" height="810" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.174189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pages/newJigsaw/newJigsaw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="41" column="30" lean-forward="false" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <marker date="1531832924601" expanded="true" signature="214:8118" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="221:247" ph="/** 页面的初始数据 ...*/" />
+            <marker date="1531832924601" expanded="true" signature="258:662" ph="{&quot;imgUrl&quot;: ''...}" />
+            <marker date="1531832924601" expanded="true" signature="669:702" ph="/** 生命周期函数--监听页面加载 ...*/" />
+            <marker date="1531832924601" expanded="true" signature="728:1864" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="973:1097" ph="{&quot;iwidth&quot;: iwidth...}" />
+            <marker date="1531832924601" expanded="true" signature="1109:1258" ph="//..." />
+            <marker date="1531832924601" expanded="true" signature="1354:1857" ph="{&quot;name&quot;: 'jigsaw'...}" />
+            <marker date="1531832924601" expanded="true" signature="1469:1846" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="1578:1772" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="1613:1725" ph="{&quot;title&quot;: '提示'...}" />
+            <marker date="1531832924601" expanded="true" signature="1870:2430" ph="//..." />
+            <marker date="1531832924601" expanded="true" signature="2436:3177" ph="//..." />
+            <marker date="1531832924601" expanded="true" signature="3225:3621" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="3523:3614" ph="{&quot;total&quot;: total...}" />
+            <marker date="1531832924601" expanded="true" signature="3667:4053" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="3772:3816" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="3832:3896" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="3915:3959" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="3965:4007" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="4099:4483" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="4211:4255" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="4274:4338" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="4353:4397" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="4403:4445" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="4528:4639" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="4585:4632" ph="{&quot;overtime&quot;: e.detail.value...}" />
+            <marker date="1531832924601" expanded="true" signature="4683:4734" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="4779:4832" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="4878:4971" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="5012:5092" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="5035:5085" ph="{&quot;url&quot;: '/pages/index/index'...}" />
+            <marker date="1531832924601" expanded="true" signature="5126:6124" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="5212:6033" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="5337:6022" ph="{&quot;url&quot;: url...}" />
+            <marker date="1531832924601" expanded="true" signature="5503:6007" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="5646:5775" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="5688:5752" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="5781:5970" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="5820:5947" ph="{&quot;title&quot;: '提示'...}" />
+            <marker date="1531832924601" expanded="true" signature="6037:6118" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="6067:6107" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="6169:7452" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="6467:6502" ph="//..." />
+            <marker date="1531832924601" expanded="true" signature="6595:7445" ph="{&quot;url&quot;: url...}" />
+            <marker date="1531832924601" expanded="true" signature="6733:7223" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="6881:6997" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="6916:6977" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="7001:7209" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="7036:7190" ph="{&quot;title&quot;: '提示'...}" />
+            <marker date="1531832924601" expanded="true" signature="7255:7435" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="7286:7420" ph="{&quot;title&quot;: '提示'...}" />
+            <marker date="1531832924601" expanded="true" signature="7459:7486" ph="/** 用户点击发给好友 ...*/" />
+            <marker date="1531832924601" expanded="true" signature="7523:8116" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="7909:7945" ph="{...}" />
+            <marker date="1531832924601" expanded="true" signature="7972:8101" ph="{&quot;title&quot;: '拼一拼'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

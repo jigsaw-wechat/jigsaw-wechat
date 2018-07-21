@@ -9,12 +9,6 @@ Page({
         hasUserInfo: false,
         canIUse: wx.canIUse('button.open-type.getUserInfo'),
 
-        files: [
-            { id: 1, src: '/public/images/1.jpg' },
-            { id: 2, src: '/public/images/2.jpg' },
-            { id: 3, src: '/public/images/3.jpg' },
-        ],
-        isUploadShow:true,
         backgroundImg:'/public/images/background0.jpg',
     },
     
@@ -81,7 +75,7 @@ Page({
             fail:function(err){
                 wx.showModal({
                     title: '提示',
-                    content: '捞取失败：' + err,
+                    content: '捞取请求失败：' + err,
                     showCancel: false
                 })
             }
