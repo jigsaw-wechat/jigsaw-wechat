@@ -207,7 +207,7 @@ Page({
                 data:{path:path},
                 dataType:'JSON',
                 success: function (res) {
-                    console.log('删除结果',res);
+                    console.log('删除结果',path,res);
                     let data = JSON.parse(res.data);
                     if (data.code === 200) {
                         wx.navigateBack({
@@ -217,6 +217,7 @@ Page({
                         wx.showModal({
                             title: '提示',
                             content: '图片删除失败，暂时不能取消，请再试！',
+                            showCancel:false
                         })
                     }                   
                 },
@@ -282,7 +283,7 @@ Page({
         let obj = {};
         obj.img = this.data.imgPath;
         obj.col = this.data.col;
-        obj.row = this.data.row;
+        obj.rowNum = this.data.row;
         obj.remark = this.data.remark;
 
         let user = app.globalData.userInfo;
