@@ -41,15 +41,15 @@ Page({
             let left = (width - 300) / 2;
 
             task = JSON.parse(task);
-            let total = task.col * task.row;
+            let total = task.col * task.rowNum;
             let mwidth = 300/task.col,
-                mheight = 300/task.row;
+                mheight = 300/task.rowNum;
 
             this.setData({
                 left: left,
                 src: task.img,
                 col: task.col,
-                row: task.row,
+                row: task.rowNum,
                 total: total,
                 remark: task.remark + '\n\n',
                 mwidth: mwidth,
@@ -118,9 +118,9 @@ Page({
 
     // 设置每个网格的背景图位置
     insertBack:function(obj){
-        let total = obj.col * obj.row,
+        let total = obj.col * obj.rowNum,
             col = obj.col,
-            row = obj.row;
+            row = obj.rowNum;
         let w = 300 / col,
             h = 300 / row;
         let arr = [];

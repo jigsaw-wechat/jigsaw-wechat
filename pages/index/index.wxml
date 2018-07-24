@@ -1,5 +1,6 @@
 <!--index.wxml-->
-<view class="container" style="background:url('{{backgroundImg}}') no-repeat fixed center;background-size:100% 100%;">
+<view class="container" style="background:url({{backgroundImg}}) ">
+     <image style="position:absolute;z-index:-10;width:100%;height:100%;" mode="aspectFill" src="{{backgroundImg}}"></image>
     <view class="userinfo">
         <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
         <block wx:else>
