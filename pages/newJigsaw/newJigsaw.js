@@ -283,7 +283,7 @@ Page({
         let obj = {};
         obj.img = this.data.imgPath;
         obj.col = this.data.col;
-        obj.row = this.data.row;
+        obj.rowNum = this.data.row;
         obj.remark = this.data.remark;
 
         let user = app.globalData.userInfo;
