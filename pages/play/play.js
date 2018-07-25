@@ -66,8 +66,7 @@ Page({
                 this.setData({
                     back: arr
                 })
-
-            }, 1000);
+            }, 2000);
             // 下载图片
             // console.log('图片路径',task.img);
             // let self = this;
@@ -173,7 +172,7 @@ Page({
     },
 
     move: function (e) {
-        console.log('移动', e);
+        // console.log('移动', e);
         let index = e.currentTarget.dataset.id;
         let arr = this.data.back;
         let first = this.data.first;
@@ -275,15 +274,38 @@ Page({
         })
     },
 
+    // 取消
     goBack:function(){
-        wx.navigateBack({
-            delta:1
+        // wx.navigateBack({
+        //     delta:1
+        // })
+        wx.reLaunch({
+          url: '/pages/index/index',
         })
     },
+
+    // 去首页
     goIndex:function(){
-        wx.switchTab({
+      wx.reLaunch({
             url: '/pages/index/index',
         })
+    },
+
+    // 回复一个拼图
+    reply:function(){
+      wx.chooseImage({
+        sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
+        sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
+        count: 1,
+        success: function (res) {
+          // console.log('图片信息', res);
+          app.globalData.img = res.tempFilePaths;
+
+          wx.navigateTo({
+            url: '/pages/editimg/editimg?img=' + res.tempFilePaths,
+          })
+        }
+      })
     },
 
     /**

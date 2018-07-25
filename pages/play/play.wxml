@@ -72,5 +72,6 @@
     <view class="handleView">
         <button type="default" size="mini" bindtap='goBack' wx:if="{{!success}}">取消</button>
         <button type="primary" size="mini" bindtap='goIndex' wx:if="{{success}}">返回首页</button>
+        <button type="primary" size="mini" bindtap='reply' wx:if="{{success}}">回复一个</button>
     </view> 
 </view>

@@ -16,7 +16,7 @@ const formatNumber = n => {
 
 const userInfo = {};
 
-const prd = false; // 是否生产环境。
+const prd = true; // 是否生产环境。
 const MAIN_URL = prd ? 'https://pt.xiaomaiw.top' :'http://192.168.50.18:3086';
 
 const salvageUrl = MAIN_URL + '/drift/salvage';

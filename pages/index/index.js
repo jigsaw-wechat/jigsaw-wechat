@@ -51,7 +51,6 @@ Page({
 
     // 捞取拼图
     salvage:function(){
-        // let url =  'http://192.168.50.17:3086/drift/salvage';
         let url = util.salvageUrl;
         wx.request({
             url: url,
@@ -60,7 +59,6 @@ Page({
                 let res = result.data;
                 if(res.code === 200){
                     let jigsaw = JSON.stringify(res.data);
-                    // console.log('222222222222',jigsaw);
                     wx.navigateTo({
                         url: '/pages/play/play?task=' + jigsaw,
                     })

@@ -27,7 +27,8 @@ Page({
         mwidth:0, // 单个格子宽度
         mheight:0, // 单个格子高度
 
-        isShare:false, // 是否已经分享
+        isShare:false, // 是否已经发送给好友或扔到海里
+        isDrift:false, // 是否已经扔到海里
     },
 
     /**
@@ -51,10 +52,10 @@ Page({
         // let ctx = wx.createCanvasContext('firstCanvas');
         // ctx.drawImage(img, 0, 0, 300, 300);
         // ctx.draw();
-        
 
         let _this = this;
         let url = util.uploadImgUrl;
+        console.log('上传图片路由',url);
         wx.uploadFile({
             url: url,
             filePath: img,
@@ -69,8 +70,10 @@ Page({
                     });
                     return
                 }
-                _this.data.imgPath = path;
-                
+                // _this.data.imgPath = path;
+                _this.setData({
+                  imgPath:path
+                })
             },
         })
     },
@@ -188,7 +191,7 @@ Page({
     
     // 返回首页
     goIndex:function(){
-        wx.switchTab({
+      wx.reLaunch({
             url: '/pages/index/index',
         })
     },
@@ -231,6 +234,8 @@ Page({
 
     // 作为漂流瓶扔海里
     driftBottle:function(){
+      let isDrift = this.data.isDrift;
+      if (!isDrift){
         let obj = {};
         obj.img = this.data.imgPath;
         obj.col = this.data.col;
@@ -238,41 +243,48 @@ Page({
         obj.remark = this.data.remark;
 
         let user = app.globalData.userInfo;
-
         obj.nickName = user.nickName; // 用户昵称
         obj.avatarUrl = user.avatarUrl; // 用户头像
         // obj.from = user;
-        
+
         let self = this;
         let url = util.driftCreateUrl;
         wx.request({
-            url: url,
-            method:'POSt',
-            data:obj,
-            dataType:'JSON',
-            success:function(result){
-                // console.log('111111111111111', result);
-                let res = JSON.parse(result.data);
-                if(res.code === 200){
-                    self.setData({
-                        isShare: true
-                    });
-                }else{
-                    wx.showModal({
-                        title: '提示',
-                        content: '扔到海里失败：'+ res.msg,
-                        showCancel:false
-                    })
-                }
-            },
-            fail:function(err){
-                wx.showModal({
-                    title: '提示',
-                    content: '请求失败：' + err,
-                    showCancel: false
-                })
+          url: url,
+          method: 'POSt',
+          data: obj,
+          dataType: 'JSON',
+          success: function (result) {
+            // console.log('111111111111111', result);
+            let res = JSON.parse(result.data);
+            if (res.code === 200) {
+              self.setData({
+                isShare: true,
+                isDrift: true
+              });
+            } else {
+              wx.showModal({
+                title: '提示',
+                content: '扔到海里失败：' + res.msg,
+                showCancel: false
+              })
             }
+          },
+          fail: function (err) {
+            wx.showModal({
+              title: '提示',
+              content: '请求失败：' + err,
+              showCancel: false
+            })
+          }
         })
+      }else{
+        wx.showModal({
+          title: '提示',
+          content: '这个已经扔过了！',
+          showCancel: false
+        })
+      } 
     },
 
     /**
